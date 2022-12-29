@@ -1,0 +1,9 @@
+#digitalClock{
+    font-size: xx-large;
+    background-color: black;
+    display: inline;
+    color: wheat;
+    position: relative;
+    left: 600px;
+    padding: 10px; 
+}

@@ -1,0 +1,14 @@
+button{
+    color: white;
+    background-color: cadetblue;
+    padding: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 30%;
+    border: 0;
+}
+button:hover{
+    background-color:rgb(69, 94, 95);
+    transition: 0.4s;
+}

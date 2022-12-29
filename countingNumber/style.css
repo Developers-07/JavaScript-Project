@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body, html{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: #EFF4F5;
+}
+
+.container{
+    width: 600px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+}
+h1, h2{
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+.form .btn1, .btn2{
+    margin-right: 15px;
+    padding:10px 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}

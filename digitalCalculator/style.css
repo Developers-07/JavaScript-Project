@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+#res{
+    border: 2px solid black;
+    outline: none;
+    padding: 5px;
+}
+
+input[type="button"]{
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    width: 100%;
+}
+.btn{
+    padding: 5px;  
+}
